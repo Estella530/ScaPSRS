@@ -12,3 +12,6 @@ A scalable parallel sorting algorithm by regular sampling
 > e.g. uniform distribution, `mpirun -n 128 scapsrs -n 100000 -g uniform`\
 > e.g. normal distribution, `mpirun -n 128 scapsrs -n 100000 -g normal`\
 > e.g. exponential distribution, `mpirun -n 128 scapsrs -n 100000 -g exp`
+
+3. set the acceptable imbalance ratio $\in(0,0.5)$, default is 0.1, `-i 0.1`
+> e.g. `mpirun -n 128 scapsrs -n 100000 -i 0.1`
